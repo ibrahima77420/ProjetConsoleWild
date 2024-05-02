@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modele\Cours.cs" />
+    <Compile Include="Modele\Eleve.cs" />
+    <Compile Include="Modele\MenuCours.cs" />
+    <Compile Include="Modele\MenuEleve.cs" />
+    <Compile Include="Modele\MenuPrincipal.cs" />
+    <Compile Include="Modele\Voiture.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
